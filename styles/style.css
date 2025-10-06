@@ -47,10 +47,10 @@
 }
 
 .address {
-  width: 240.52px;
+  width: 240px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   text-decoration: none;
   font-style: normal;
   text-underline-offset: 4px;
@@ -74,7 +74,7 @@
 .cover__wrapper {
   padding: 169px 51px 50px;
   margin: 0 auto;
-  color: var(--white);
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -84,7 +84,7 @@
   row-gap: 20px;
   font-size: 100px;
   font-weight: 700;
-  line-height: calc(100 / 100 * 100%);
+  line-height: 1;
   letter-spacing: 29px;
   position: relative;
 }
@@ -99,9 +99,10 @@
 
 .cover__description-text {
   font-size: 22px;
-  line-height: calc(28 / 22 * 100%);
+  line-height: 1.27;
   word-spacing: 18px;
   margin-left: 29px;
+  color: #fff;
 }
 
 .overlay {
@@ -114,13 +115,13 @@
 
 .bet-button {
   padding: 12px 31px;
-  border: 1px solid var(--white);
+  border: 1px solid #fff;
   font-size: 22px;
   font-weight: 500;
-  line-height: calc(26 / 22 * 100%);
+  line-height: 1.18;
   text-align: center;
   text-transform: uppercase;
-  color: var(--white);
+  color: #fff;
   background-color: transparent;
   user-select: none;
   cursor: pointer;
@@ -156,7 +157,7 @@
 .lots__heading {
   font-size: 40px;
   font-weight: 700;
-  line-height: 47px;
+  line-height: 1.18;
   padding: 0 0 27px 40px;
   text-transform: uppercase;
 }
@@ -194,23 +195,23 @@
 .card__title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 26px;
+  line-height: 1.18;
   letter-spacing: 0em;
   text-align: left;
   padding: 51px 40px 0 40px;
   text-decoration: underline;
   text-transform: uppercase;
   text-underline-offset: 2px;
-  color: var(--white);
+  color: #fff;
   z-index: 1;
 }
 
 .card__text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   margin-inline: 40px;
   margin-bottom: 48px;
-  color: var(--white);
+  color: #fff;
   text-decoration: none;
   z-index: 1;
 }
@@ -230,7 +231,7 @@
 .lots__look-more-link {
   font-size: 20px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.4;
   letter-spacing: 0em;
   text-align: left;
   padding: 0 40px 0 40px;
@@ -280,7 +281,7 @@
   row-gap: 24px;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.2;
   margin-right: 12px;
 }
 

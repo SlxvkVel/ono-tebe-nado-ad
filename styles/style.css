@@ -42,10 +42,6 @@
   margin-bottom: 2px;
 }
 
-.header__logo-image {
-  object-fit: contain;
-}
-
 .address {
   width: 240px;
   font-weight: 400;
@@ -123,10 +119,6 @@
   color: #fff;
   background-color: transparent;
   cursor: pointer;
-}
-
-.aligned-text {
-  width: fit-content;
 }
 
 .aligned-text_center {
